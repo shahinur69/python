@@ -1,4 +1,4 @@
-"""
+
 age = 21
 height = 5.9
 name = "Alice"
@@ -7,6 +7,7 @@ print(type(age))
 print(type(height))
 print(type(name))
 print(type(is_student))
+"""
 a = 10
 b = 3
 result = a / b
