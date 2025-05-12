@@ -1,4 +1,4 @@
-
+"""
 age = 21
 height = 5.9
 name = "Alice"
@@ -7,7 +7,7 @@ print(type(age))
 print(type(height))
 print(type(name))
 print(type(is_student))
-"""
+
 a = 10
 b = 3
 result = a / b
@@ -161,6 +161,25 @@ while n != 0:
     n = int(input("Enter a number (0 to stop): "))
 print("Count of positive numbers:", count)
 
+
+n = int(input("Enter a number: "))
+if(n == 0):
+    print("Zero")
+elif(n > 0):
+    if(n % 2 == 0):
+        print("Positive even number")
+    else:
+        print("Positive odd number")
+else:
+    if(n % 2 == 0):
+        print("Negative even number")
+    else:
+        print("Negative odd number")
 """
 
-
+    
+while(True):
+    n = int(input())
+    if(n < 0):
+        continue
+    print(n)
